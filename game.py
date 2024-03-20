@@ -64,9 +64,7 @@ def main():
             print('Ничья!')
             running = False
 
-        # Тернарный оператор, через который реализована смена игроков.
-        # Если current_player равен X, то новым значением будет O,
-        # иначе — новым значением будет X.
+
         current_player = 'O' if current_player == 'X' else 'X'
 
 
