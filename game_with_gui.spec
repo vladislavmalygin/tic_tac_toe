@@ -34,4 +34,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['/home/vlad/Dev/Practicum/tic_tac_toe/tic_tac_toe_logo.png'],
 )
